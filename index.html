@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/0161e8f976.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    body{
+        margin: 0%;
+        padding: 0%;
+        background-color: black;
+    }
+    nav{
+        width: 1300px;
+        margin: auto;
+        /* background-color:darkorchid; */
+        display: flex;
+        margin-top: 10px;
+    }
+    .navbar{
+        margin-left: 500px;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        
+
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    #b1{
+        padding: 20px;
+        border: 1px solid rgb(29, 29, 29);
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+    }
+    #id1{
+        color: white;
+        text-align: center;
+        font-size: 80px;
+        font-family: "Roboto", sans-serif;
+    }
+    #blue{
+        color:rgb(119,2,215);
+        text-align: center;
+        font-size: 80px;
+        font-family: "Roboto", sans-serif;
+    }
+    p{
+        color:grey;
+        text-align: center;
+        font-size: 30px;
+        font-family: "Roboto", sans-serif;
+        
+
+    }
+    /* body {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+} */
+
+.search-bar {
+    width:700px;
+    margin: auto;
+  display: flex;
+  /* align-items: center; */
+  background-color: #2a2a2a;
+  border-radius: 15px;
+  padding: 5px;
+  border: 5px solid rgb(166, 147, 182);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ 
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 15px;
+  flex-grow: 1;
+  outline: none;
+}
+
+input[type="text"]::placeholder {
+  color: #888888;
+}
+
+button {
+  background-color: #8a2be2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #9b4deb;
+}
+.mark{
+    width:200px;
+    height: 30px;
+    padding-left: 20px;
+    display: inline-block;
+    background-color:black;
+    color: white;
+    margin-left: 700px;
+    border: 1px solid rgb(53, 53, 53);
+}
+</style>
+<body>
+    <nav>
+        <img width="150px" height="60px" src="https://www.umso.com/lib_LUGoPiqXXlDptSWA/csi5g5qmp4uscbth.png" alt="">
+        <div class="navbar">
+            <a href="">Pricing</a>
+            <a href="">Features</a>
+            <a href="">Showcase</a>
+            <button id="b1"> Log in</button>
+            <button id="b1">Sign In-></button>
+        </div>
+    </nav>
+    <main>
+        <h1 id ="id1" style="margin-top: 150px;">Get your</h1>
+        <h1 id = "blue" >AI Generated Website</h1>
+        <h1 id ="id1">In Seconds</h1>
+        <p id = "p">Give it a try right below, without having to sign up!</p>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Vegan Pizza Restaurant in">
+            <button>Generate</button>
+          </div>
+
+          <div>
+            <h3 style="color:white; margin-left: 450px; font-family: 'Roboto', sans-serif; display:inline-block; margin-right: 20px;">Excellent</h3>
+            <i class="fa-solid fa-star fa-xs" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star fa-xs" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star fa-xs" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star fa-xs" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star-half fa-xs" style="color: #63E6BE;"></i>
+            <h3 style="color:white; margin-left: 20px; font-family: 'Roboto', sans-serif; display:inline-block; margin-right: 20px;">4.8 out of 5 based on 85 reviews</h3>
+            <img width = "90px" height = "20px" style="margin-top: 20px " src="https://www.umso.com/lib_LUGoPiqXXlDptSWA/l98xzo3hmycv8co1.png?h=80&dpr=2" alt="">
+          </div>
+
+          <div class="mark">Made with <img width = "50%" src="https://www.umso.com/lib_LUGoPiqXXlDptSWA/csi5g5qmp4uscbth.png" alt=""></div>
+
+    </main>
+</body>
+</html>
